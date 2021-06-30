@@ -6,6 +6,7 @@ using UnityEngine;
 [AddComponentMenu("Control Script/FPS Input")]
 public class FPSInput : MonoBehaviour
 {
+    public float gravity = -9.8f;
     public float speed = 6.0f;// скорость передвижения
     private CharacterController _charController;//Переменная для ссылки на компонент CharacterController
 
@@ -21,6 +22,8 @@ public class FPSInput : MonoBehaviour
         float deltaZ = Input.GetAxis("Vertical") * speed;
         Vector3 movement = new Vector3(deltaX, 0 , deltaZ);
         movement = Vector3.ClampMagnitude(movement, speed);//Ограничим движение по диагонали той же скоростью, что и движение параллелно осям
+
+        movement.y = gravity;
 
         movement *= Time.deltaTime;
         movement = transform.TransformDirection(movement);//Преобразуем движение от локальных к глобальным координатам
