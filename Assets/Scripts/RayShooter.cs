@@ -30,8 +30,18 @@ public class RayShooter : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))//Испущенный луч запоняет информацией переменную, на которую имеется ссылка
             {
-                StartCoroutine(SphereIndicator(hit.point));//StartCoroutine() - запуск сопрограммы в ответ на попадание
-                //Debug.Log("Hit" + hit.position);//Загружаем координаты точки, в которую попал луч
+                GameObject hitObject = hit.transform.gameObject;//получаем объект в который попал луч
+                ReactiveTarget target =hitObject.GetComponent<ReactiveTarget>();
+                if (target != null)
+                {
+                    target.ReactToHit();//Вызов метода для мишени вместо генерации отладочного сообщения
+                    //Debug.Log("Target hit");
+                }
+                else
+                {
+                    StartCoroutine(SphereIndicator(hit.point));//StartCoroutine() - запуск сопрограммы в ответ на попадание
+                }
+                 //Debug.Log("Hit" + hit.position);//Загружаем координаты точки, в которую попал луч
             }
         }
     }
