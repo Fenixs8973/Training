@@ -7,7 +7,7 @@ public class ReactiveTarget : MonoBehaviour
     public void ReactToHit()//Метод вызванный сценарием стрельбы
     {
         WanderingAI behavior = GetComponent<WanderingAI>();
-        if (behavior != null)
+        if (behavior != null)//Проверяем, присоединен ли к персонажу сценарий WanderingAI; он может и отсутвовать
         {
             behavior.SetAlive(false);
         }
