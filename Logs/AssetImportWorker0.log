@@ -15,11 +15,11 @@ C:/Users/frog8/Documents/GitHub/New-project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53298
+63169
 Successfully changed project path to: C:/Users/frog8/Documents/GitHub/New-project
 C:/Users/frog8/Documents/GitHub/New-project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,252 +35,390 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008002 seconds.
+Registered in 0.006913 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.740 seconds
+- Completed reload, in  3.927 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009412 seconds.
+Registered in 0.011565 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.274 seconds
+- Completed reload, in  2.369 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1828.
-Total: 3.906200 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.340700 ms  DeleteObjects: 0.141900 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 3.370800 ms (FindLiveObjects: 0.382800 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.772200 ms  DeleteObjects: 0.116200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Fireball.cs
-  artifactKey: Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fireball.cs using Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b19839d11c701eaf9751c7ad9af2948') in 0.050652 seconds
-  Import took 0.055500 seconds .
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e91309e2c9bdf6ffda43fc87b2b0e40') in 0.248255 seconds
+  Import took 0.254819 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.4 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 3.083400 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.630000 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.429548 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(ea853df27b76e3345aa9e289393bc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(ea853df27b76e3345aa9e289393bc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30afd3763f714980533a0336710b68e4') in 0.047987 seconds
+  Import took 0.052074 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008172 seconds.
+Registered in 0.008235 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.794 seconds
+- Completed reload, in  1.706 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1831.
-Total: 2.713700 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.254900 ms  DeleteObjects: 0.085400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.584190 seconds.
-  path: Assets/Scripts/Fireball.cs
-  artifactKey: Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fireball.cs using Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec895ce19067b53090d1b7d2b922a948') in 0.008023 seconds
-  Import took 0.011274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.775870 seconds.
-  path: Assets/Scripts/Fireball.cs
-  artifactKey: Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fireball.cs using Guid(3ae575650c46b0346a793fb8146ae239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec895ce19067b53090d1b7d2b922a948') in 0.006151 seconds
-  Import took 0.009368 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009347 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.984 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1834.
-Total: 3.054000 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.611600 ms  DeleteObjects: 0.078000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1920.459959 seconds.
-  path: Assets/Texsture/bench.png
-  artifactKey: Guid(ff28d595d2bfb0542aecc01eecd2eb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/bench.png using Guid(ff28d595d2bfb0542aecc01eecd2eb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c45b4a88551aaec34567c467e84bd59') in 0.202006 seconds
-  Import took 0.205298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Texsture/BrickLargeBare0032.png
-  artifactKey: Guid(67f6f0f6533b5734097c8c3e2e057279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/BrickLargeBare0032.png using Guid(67f6f0f6533b5734097c8c3e2e057279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794155c17dab878eb81785d8875f401b') in 0.035767 seconds
-  Import took 0.039666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Texsture/fire_sprite.png
-  artifactKey: Guid(980c2db28ab6aa54eaae54ea5a29d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/fire_sprite.png using Guid(980c2db28ab6aa54eaae54ea5a29d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc605898cd6a77770f0690fb39ae3947') in 0.035033 seconds
-  Import took 0.039197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Texsture/BrickRound0067.png
-  artifactKey: Guid(41f5e23472e34774da9b4366ff372825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/BrickRound0067.png using Guid(41f5e23472e34774da9b4366ff372825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8332f0e973f91dead7ee8d0de62b5644') in 0.035196 seconds
-  Import took 0.038422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.164272 seconds.
-  path: Assets/Materials/New Material 3.mat
-  artifactKey: Guid(863c37415e0e0e04d9948951baaca434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 3.mat using Guid(863c37415e0e0e04d9948951baaca434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf8f0b386aeac8ed77474e411878e74') in 0.128044 seconds
-  Import took 0.132871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.990471 seconds.
-  path: Assets/Materials/New Custom Render Texture.asset
-  artifactKey: Guid(0fc6b186f1f8b9f43a8e68b05f2caab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Custom Render Texture.asset using Guid(0fc6b186f1f8b9f43a8e68b05f2caab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a5f64ffbb15b01512b0df9c2a2fcd2') in 0.058299 seconds
-  Import took 0.062031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.429125 seconds.
-  path: Assets/Materials/New Custom Render Texture.asset
-  artifactKey: Guid(0fc6b186f1f8b9f43a8e68b05f2caab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Custom Render Texture.asset using Guid(0fc6b186f1f8b9f43a8e68b05f2caab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a5f64ffbb15b01512b0df9c2a2fcd2') in 0.038369 seconds
-  Import took 0.043721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.520916 seconds.
-  path: Assets/Sky/TropicalSunnyDayBack2048.png
-  artifactKey: Guid(5168d62bd2a062f43acf4e82e9402e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayBack2048.png using Guid(5168d62bd2a062f43acf4e82e9402e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e439ae9153927ded4715c945b07ea55') in 0.055320 seconds
-  Import took 0.058899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sky/TropicalSunnyDayFront2048.png
-  artifactKey: Guid(000bec99dafa52640849b5fabc285271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayFront2048.png using Guid(000bec99dafa52640849b5fabc285271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4affac8612e39e45327c16927406309d') in 0.045202 seconds
-  Import took 0.048988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sky/TropicalSunnyDayLeft2048.png
-  artifactKey: Guid(91637ed46adef3b498d08a02ee7309c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayLeft2048.png using Guid(91637ed46adef3b498d08a02ee7309c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96ceaf1bbfc89e2c0ea968cde024748') in 0.036285 seconds
-  Import took 0.041540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sky/TropicalSunnyDayUp2048.png
-  artifactKey: Guid(97cbf03e5169dcd49a21d8ccc120cc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayUp2048.png using Guid(97cbf03e5169dcd49a21d8ccc120cc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44149af54f24b9f4c0a06c49191d78d') in 0.065909 seconds
-  Import took 0.070475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Sky/TropicalSunnyDayDown2048.png
-  artifactKey: Guid(b4dad0425880a27448e4777e85a43a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayDown2048.png using Guid(b4dad0425880a27448e4777e85a43a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404d6652c79b4591506b3c5a67e84ce2') in 0.172520 seconds
-  Import took 0.176531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sky/TropicalSunnyDayRight2048.png
-  artifactKey: Guid(51afa99223397cf42891bb3ffbb14052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky/TropicalSunnyDayRight2048.png using Guid(51afa99223397cf42891bb3ffbb14052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddbbcb1259d91fd2a32b7b4bf58df97') in 0.072686 seconds
-  Import took 0.075987 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012405 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.919 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.6 MB.
 System memory in use after: 68.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 2.800300 ms (FindLiveObjects: 0.382500 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.265700 ms  DeleteObjects: 0.071800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 3.198500 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.689000 ms  DeleteObjects: 0.104300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2984.063883 seconds.
-  path: Assets/Texsture/Materials
-  artifactKey: Guid(b346b2858e4051b4baa8c3438629f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/Materials using Guid(b346b2858e4051b4baa8c3438629f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44cf6b1499d83727034cc5c39711b9d') in 0.032578 seconds
-  Import took 0.036586 seconds .
+  Time since last request: 27.091209 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09965c20e610d72d6fe243760bec924') in 0.105483 seconds
+  Import took 0.109972 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 2.686600 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.268600 ms  DeleteObjects: 0.076800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025205 seconds.
-  path: Assets/Texsture/Materials/BrickLargeBare0032.mat
-  artifactKey: Guid(418b287914ea1a24ab67a24e6d3171e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/Materials/BrickLargeBare0032.mat using Guid(418b287914ea1a24ab67a24e6d3171e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f2852ab28f848b5e3bc243c1dce61a') in 0.128875 seconds
-  Import took 0.132455 seconds .
+  Time since last request: 23.566575 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a79cfc85f7e504d1a41a3512280c6b') in 0.090096 seconds
+  Import took 0.094292 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 2.714500 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.271500 ms  DeleteObjects: 0.070500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Texsture/Materials/BrickRound0067.mat
-  artifactKey: Guid(38ecfe53403103248bdf9a62ab237066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texsture/Materials/BrickRound0067.mat using Guid(38ecfe53403103248bdf9a62ab237066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77abc67adf135b228de666123d9fff5') in 0.043938 seconds
-  Import took 0.047244 seconds .
+  Time since last request: 19.836884 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b759aed4fb15ed4d99e8fe0d9c991fb') in 0.088934 seconds
+  Import took 0.092711 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 3.009400 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.507700 ms  DeleteObjects: 0.078200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.781635 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7e4de5db82cc4e40321cbd35d608b4') in 0.096805 seconds
+  Import took 0.102914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210171 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9c9424e67586aa689571946acd28a') in 0.016522 seconds
+  Import took 0.022305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.019498 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70119e0e68b9b43a1b8a851892418628') in 0.015921 seconds
+  Import took 0.021556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.233408 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3c8071a22ca19368aee8ce867916aa') in 0.016404 seconds
+  Import took 0.020437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.483081 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8524cc3c5f029b53fee65a83f2f6c3') in 0.017199 seconds
+  Import took 0.021783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.135213 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f3ea5177ceb8c22636da08db12b0b') in 0.017088 seconds
+  Import took 0.021150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.633840 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cba0e4038fa3aed122ae889bc7c389') in 0.016375 seconds
+  Import took 0.021281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.502754 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e173538ac395cda9aaad5984389085d') in 0.016281 seconds
+  Import took 0.020972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.407743 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3af6d44ec690b67ca1b7708145dadb8') in 0.018540 seconds
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626450 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8645a45a356757eb94eee358e022a115') in 0.017073 seconds
+  Import took 0.021798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.294838 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff58aa1aecf31b99b3169a1ccf85931') in 0.017678 seconds
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.051455 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915f078e3b73b2da2eb907c3b8e08bfe') in 0.017116 seconds
+  Import took 0.022454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.486766 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1a77b84893f261a2beb251a156c23b') in 0.016801 seconds
+  Import took 0.022041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.231280 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cef425d16e1e573aee256579d3e4b63') in 0.015863 seconds
+  Import took 0.021555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.604965 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b6b9f26f4ffebf3ad08e0acd7dece9') in 0.017281 seconds
+  Import took 0.021444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.573477 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a7145e97151e6e5eb728716bfe31f') in 0.015487 seconds
+  Import took 0.019809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.046880 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228ec013e32fd311a1798da3f4eaf2a') in 0.016390 seconds
+  Import took 0.020365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 2.872700 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.192600 ms MarkObjects: 2.323400 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.651564 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ee2e1d9e7e7ff15cbd1f8ab7d37ebe') in 0.107806 seconds
+  Import took 0.112075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.275431 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93385b40709faddacaf496aa6f7a47b9') in 0.023819 seconds
+  Import took 0.028600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609752 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f580746d784b756e36efa8045757c9') in 0.028504 seconds
+  Import took 0.034833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.234121 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3e7386b5db421f968e58b0eada57d3') in 0.024896 seconds
+  Import took 0.029522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.622916 seconds.
+  path: Assets/Prefabs/Fireball.prefab
+  artifactKey: Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fireball.prefab using Guid(ab5e694e11a74584a923b8d6d17c204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65ac9550250c68521e9c7d682fcd6e6') in 0.031908 seconds
+  Import took 0.037161 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 5.005100 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.310800 ms MarkObjects: 4.261000 ms  DeleteObjects: 0.090800 ms)
 
