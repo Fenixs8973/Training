@@ -17,7 +17,7 @@ public class Fireball : MonoBehaviour
         PlayerCharacter player = other.GetComponent<PlayerCharacter>();
         if (player != null)//Проверяем, является этот другой объект объектом PlayerCharacter
         {
-            Debug.Log("Player hit");
+            player.Hurt(damage);
         }
         Destroy(this.gameObject);
     }
